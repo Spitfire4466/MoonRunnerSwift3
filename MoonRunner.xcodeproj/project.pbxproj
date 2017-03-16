@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78CE0D651AFBEA53009BBE75 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CE0D641AFBEA53009BBE75 /* Location.swift */; };
+		78CE0D671AFBEA54009BBE75 /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CE0D661AFBEA54009BBE75 /* Run.swift */; };
+		7E09BF511E6592FD00D4FFC9 /* MulticolorPolylineSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E09BF501E6592FD00D4FFC9 /* MulticolorPolylineSegment.swift */; };
+		7E8CEDCA1E66D68F00DA1072 /* Badges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8CEDC91E66D68F00DA1072 /* Badges.swift */; };
+		7E8CEDCC1E66DBD500DA1072 /* BadgeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8CEDCB1E66DBD500DA1072 /* BadgeCell.swift */; };
+		7E8CEDCE1E66DCF300DA1072 /* BadgesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8CEDCD1E66DCF300DA1072 /* BadgesTableViewController.swift */; };
+		7E8CEDD01E66E09C00DA1072 /* BadgeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8CEDCF1E66E09C00DA1072 /* BadgeDetailsViewController.swift */; };
+		870F82631A24E70F00776E2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870F82621A24E70F00776E2F /* AppDelegate.swift */; };
+		870F82661A24E70F00776E2F /* MoonRunner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 870F82641A24E70F00776E2F /* MoonRunner.xcdatamodeld */; };
+		870F826A1A24E70F00776E2F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870F82691A24E70F00776E2F /* DetailViewController.swift */; };
+		870F826D1A24E70F00776E2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 870F826B1A24E70F00776E2F /* Main.storyboard */; };
+		870F826F1A24E70F00776E2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 870F826E1A24E70F00776E2F /* Images.xcassets */; };
+		870F82721A24E70F00776E2F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 870F82701A24E70F00776E2F /* LaunchScreen.xib */; };
+		870F827E1A24E71000776E2F /* MoonRunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870F827D1A24E71000776E2F /* MoonRunnerTests.swift */; };
+		872189281AA2A43E00C63008 /* badges.json in Resources */ = {isa = PBXBuildFile; fileRef = 872189271AA2A43E00C63008 /* badges.json */; };
+		8721892A1AA2A46100C63008 /* success.wav in Resources */ = {isa = PBXBuildFile; fileRef = 872189291AA2A46100C63008 /* success.wav */; };
+		8739A7161A9B80B4001FE88E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8739A7131A9B8092001FE88E /* MapKit.framework */; };
+		874B42151A9C344500081A45 /* NewRunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874B42141A9C344500081A45 /* NewRunViewController.swift */; };
+		8772AB5B1A26347A00613309 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8772AB591A26347A00613309 /* HomeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		870F82781A24E71000776E2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 870F82551A24E70F00776E2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 870F825C1A24E70F00776E2F;
+			remoteInfo = MoonRunner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78CE0D641AFBEA53009BBE75 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		78CE0D661AFBEA54009BBE75 /* Run.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
+		7E09BF501E6592FD00D4FFC9 /* MulticolorPolylineSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MulticolorPolylineSegment.swift; sourceTree = "<group>"; };
+		7E8CEDC91E66D68F00DA1072 /* Badges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Badges.swift; sourceTree = "<group>"; };
+		7E8CEDCB1E66DBD500DA1072 /* BadgeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeCell.swift; sourceTree = "<group>"; };
+		7E8CEDCD1E66DCF300DA1072 /* BadgesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgesTableViewController.swift; sourceTree = "<group>"; };
+		7E8CEDCF1E66E09C00DA1072 /* BadgeDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeDetailsViewController.swift; sourceTree = "<group>"; };
+		870F825D1A24E70F00776E2F /* MoonRunner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoonRunner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		870F82611A24E70F00776E2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		870F82621A24E70F00776E2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		870F82651A24E70F00776E2F /* MoonRunner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoonRunner.xcdatamodel; sourceTree = "<group>"; };
+		870F82691A24E70F00776E2F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		870F826C1A24E70F00776E2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		870F826E1A24E70F00776E2F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		870F82711A24E70F00776E2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		870F82771A24E71000776E2F /* MoonRunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoonRunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		870F827C1A24E71000776E2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		870F827D1A24E71000776E2F /* MoonRunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonRunnerTests.swift; sourceTree = "<group>"; };
+		872189271AA2A43E00C63008 /* badges.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = badges.json; sourceTree = "<group>"; };
+		872189291AA2A46100C63008 /* success.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = success.wav; sourceTree = "<group>"; };
+		8739A7131A9B8092001FE88E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		874B42141A9C344500081A45 /* NewRunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRunViewController.swift; sourceTree = "<group>"; };
+		8772AB591A26347A00613309 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		870F825A1A24E70F00776E2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8739A7161A9B80B4001FE88E /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		870F82741A24E71000776E2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78CE0D631AFBEA36009BBE75 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				78CE0D661AFBEA54009BBE75 /* Run.swift */,
+				78CE0D641AFBEA53009BBE75 /* Location.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		870F82541A24E70F00776E2F = {
+			isa = PBXGroup;
+			children = (
+				870F825F1A24E70F00776E2F /* MoonRunner */,
+				870F827A1A24E71000776E2F /* MoonRunnerTests */,
+				8739A7151A9B809D001FE88E /* Frameworks */,
+				870F825E1A24E70F00776E2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		870F825E1A24E70F00776E2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				870F825D1A24E70F00776E2F /* MoonRunner.app */,
+				870F82771A24E71000776E2F /* MoonRunnerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		870F825F1A24E70F00776E2F /* MoonRunner */ = {
+			isa = PBXGroup;
+			children = (
+				78CE0D631AFBEA36009BBE75 /* Models */,
+				870F82621A24E70F00776E2F /* AppDelegate.swift */,
+				8772AB591A26347A00613309 /* HomeViewController.swift */,
+				874B42141A9C344500081A45 /* NewRunViewController.swift */,
+				7E8CEDC91E66D68F00DA1072 /* Badges.swift */,
+				7E8CEDCB1E66DBD500DA1072 /* BadgeCell.swift */,
+				7E8CEDCD1E66DCF300DA1072 /* BadgesTableViewController.swift */,
+				7E8CEDCF1E66E09C00DA1072 /* BadgeDetailsViewController.swift */,
+				870F82691A24E70F00776E2F /* DetailViewController.swift */,
+				7E09BF501E6592FD00D4FFC9 /* MulticolorPolylineSegment.swift */,
+				870F826B1A24E70F00776E2F /* Main.storyboard */,
+				870F82641A24E70F00776E2F /* MoonRunner.xcdatamodeld */,
+				870F826E1A24E70F00776E2F /* Images.xcassets */,
+				870F82701A24E70F00776E2F /* LaunchScreen.xib */,
+				870F82601A24E70F00776E2F /* Supporting Files */,
+			);
+			path = MoonRunner;
+			sourceTree = "<group>";
+		};
+		870F82601A24E70F00776E2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				872189291AA2A46100C63008 /* success.wav */,
+				872189271AA2A43E00C63008 /* badges.json */,
+				870F82611A24E70F00776E2F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		870F827A1A24E71000776E2F /* MoonRunnerTests */ = {
+			isa = PBXGroup;
+			children = (
+				870F827D1A24E71000776E2F /* MoonRunnerTests.swift */,
+				870F827B1A24E71000776E2F /* Supporting Files */,
+			);
+			path = MoonRunnerTests;
+			sourceTree = "<group>";
+		};
+		870F827B1A24E71000776E2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				870F827C1A24E71000776E2F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8739A7151A9B809D001FE88E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8739A7131A9B8092001FE88E /* MapKit.framework */,
+			);
+			name = Frameworks;
+			path = MoonRunner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		870F825C1A24E70F00776E2F /* MoonRunner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 870F82811A24E71000776E2F /* Build configuration list for PBXNativeTarget "MoonRunner" */;
+			buildPhases = (
+				870F82591A24E70F00776E2F /* Sources */,
+				870F825A1A24E70F00776E2F /* Frameworks */,
+				870F825B1A24E70F00776E2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoonRunner;
+			productName = MoonRunner;
+			productReference = 870F825D1A24E70F00776E2F /* MoonRunner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		870F82761A24E71000776E2F /* MoonRunnerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 870F82841A24E71000776E2F /* Build configuration list for PBXNativeTarget "MoonRunnerTests" */;
+			buildPhases = (
+				870F82731A24E71000776E2F /* Sources */,
+				870F82741A24E71000776E2F /* Frameworks */,
+				870F82751A24E71000776E2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				870F82791A24E71000776E2F /* PBXTargetDependency */,
+			);
+			name = MoonRunnerTests;
+			productName = MoonRunnerTests;
+			productReference = 870F82771A24E71000776E2F /* MoonRunnerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		870F82551A24E70F00776E2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Zedenem;
+				TargetAttributes = {
+					870F825C1A24E70F00776E2F = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 6M5HT6BX2C;
+						LastSwiftMigration = 0820;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					870F82761A24E71000776E2F = {
+						CreatedOnToolsVersion = 6.1;
+						LastSwiftMigration = 0820;
+						TestTargetID = 870F825C1A24E70F00776E2F;
+					};
+				};
+			};
+			buildConfigurationList = 870F82581A24E70F00776E2F /* Build configuration list for PBXProject "MoonRunner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 870F82541A24E70F00776E2F;
+			productRefGroup = 870F825E1A24E70F00776E2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				870F825C1A24E70F00776E2F /* MoonRunner */,
+				870F82761A24E71000776E2F /* MoonRunnerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		870F825B1A24E70F00776E2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8721892A1AA2A46100C63008 /* success.wav in Resources */,
+				870F826D1A24E70F00776E2F /* Main.storyboard in Resources */,
+				872189281AA2A43E00C63008 /* badges.json in Resources */,
+				870F82721A24E70F00776E2F /* LaunchScreen.xib in Resources */,
+				870F826F1A24E70F00776E2F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		870F82751A24E71000776E2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		870F82591A24E70F00776E2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874B42151A9C344500081A45 /* NewRunViewController.swift in Sources */,
+				870F82661A24E70F00776E2F /* MoonRunner.xcdatamodeld in Sources */,
+				870F82631A24E70F00776E2F /* AppDelegate.swift in Sources */,
+				7E09BF511E6592FD00D4FFC9 /* MulticolorPolylineSegment.swift in Sources */,
+				870F826A1A24E70F00776E2F /* DetailViewController.swift in Sources */,
+				78CE0D651AFBEA53009BBE75 /* Location.swift in Sources */,
+				7E8CEDD01E66E09C00DA1072 /* BadgeDetailsViewController.swift in Sources */,
+				7E8CEDCA1E66D68F00DA1072 /* Badges.swift in Sources */,
+				78CE0D671AFBEA54009BBE75 /* Run.swift in Sources */,
+				8772AB5B1A26347A00613309 /* HomeViewController.swift in Sources */,
+				7E8CEDCC1E66DBD500DA1072 /* BadgeCell.swift in Sources */,
+				7E8CEDCE1E66DCF300DA1072 /* BadgesTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		870F82731A24E71000776E2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				870F827E1A24E71000776E2F /* MoonRunnerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		870F82791A24E71000776E2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 870F825C1A24E70F00776E2F /* MoonRunner */;
+			targetProxy = 870F82781A24E71000776E2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		870F826B1A24E70F00776E2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				870F826C1A24E70F00776E2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		870F82701A24E70F00776E2F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				870F82711A24E70F00776E2F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		870F827F1A24E71000776E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		870F82801A24E71000776E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		870F82821A24E71000776E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6M5HT6BX2C;
+				INFOPLIST_FILE = MoonRunner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		870F82831A24E71000776E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6M5HT6BX2C;
+				INFOPLIST_FILE = MoonRunner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		870F82851A24E71000776E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MoonRunnerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoonRunner.app/MoonRunner";
+			};
+			name = Debug;
+		};
+		870F82861A24E71000776E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MoonRunnerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoonRunner.app/MoonRunner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		870F82581A24E70F00776E2F /* Build configuration list for PBXProject "MoonRunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				870F827F1A24E71000776E2F /* Debug */,
+				870F82801A24E71000776E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		870F82811A24E71000776E2F /* Build configuration list for PBXNativeTarget "MoonRunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				870F82821A24E71000776E2F /* Debug */,
+				870F82831A24E71000776E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		870F82841A24E71000776E2F /* Build configuration list for PBXNativeTarget "MoonRunnerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				870F82851A24E71000776E2F /* Debug */,
+				870F82861A24E71000776E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		870F82641A24E70F00776E2F /* MoonRunner.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				870F82651A24E70F00776E2F /* MoonRunner.xcdatamodel */,
+			);
+			currentVersion = 870F82651A24E70F00776E2F /* MoonRunner.xcdatamodel */;
+			path = MoonRunner.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 870F82551A24E70F00776E2F /* Project object */;
+}
